@@ -35,4 +35,8 @@ return [
         'secret' => env('STRIPE_SECRET'),
     ],
 
+    "money" => [
+        "api" => env("MONEY_API_TYPE", "openexchangerates"),
+        "key" => env("MONEY_API_KEY", '6cc37a4b9dbd463ca19bc821103ca8ad')
+    ]
 ];
